@@ -21,10 +21,7 @@
     <div class="line3"><label>_______________________________________________________</label></div>
    </div> 
   
-    <div id="paypal-button-container"></div>
-    <p id="result-message"></p>
-    <!-- Replace the "test" client-id value with your client-id -->
-    <script src="https://www.paypal.com/sdk/js?client-id=AfTxXkavi83RpNRvTuOOSWL9GfIj1z7j_wBC10KNC3aSVv-_5JiV1SrtYiq6-6nD90iPgdK8th0O1Awi&components=buttons&currency=KSH&enable-funding=paylater,venmo,card" data-sdk-integration-source="integrationbuilder_sc"></script>
+    
 
   <div class="nobody">
    <h3><u>Additional Information Required</u></h3>
@@ -326,6 +323,10 @@ input{
 }
 </style>
 
+<div id="paypal-button-container"></div>
+<p id="result-message"></p>
+<!-- Replace the "test" client-id value with your client-id -->
+<script src="https://www.paypal.com/sdk/js?client-id=AfTxXkavi83RpNRvTuOOSWL9GfIj1z7j_wBC10KNC3aSVv-_5JiV1SrtYiq6-6nD90iPgdK8th0O1Awi&components=buttons&enable-funding=paylater,venmo,card" data-sdk-integration-source="integrationbuilder_sc"></script>
 <script>
 import express from "express";
 import fetch from "node-fetch";
